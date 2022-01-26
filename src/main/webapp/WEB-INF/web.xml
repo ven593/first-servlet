@@ -1,0 +1,34 @@
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  
+  
+  <servlet>
+  	<servlet-name>Dimple</servlet-name>
+  	<servlet-class>com.ty.web.Demo</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+	  <servlet-name>Dimple</servlet-name>
+	  <url-pattern>/vikas</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+	<servlet-name>MyRegister</servlet-name>  
+	<servlet-class>com.ty.web.Register</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>MyRegister</servlet-name>  
+  	<url-pattern>/register</url-pattern>
+  </servlet-mapping>
+
+<servlet>
+<servlet-name>MyWelcome</servlet-name>
+<servlet-class>com.ty.web.Welcome</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>MyWelcome</servlet-name>
+<url-pattern>/send</url-pattern>
+</servlet-mapping>
+</web-app>
